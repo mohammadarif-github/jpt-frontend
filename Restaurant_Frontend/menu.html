@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-green-600 p-4 text-white">
+        <nav class="container mx-auto flex justify-between">
+            <a href="index.html" class="text-2xl font-bold">My Restaurant</a>
+            <div>
+                <a href="index.html" class="mx-2">Home</a>
+                <a href="reservations.html" class="mx-2">Reservations</a>
+                <a href="contact.html" class="mx-2">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main class="container mx-auto p-4">
+        <section class="text-center my-8">
+            <h1 class="text-6xl font-bold mb-4">Our Menu</h1>
+            <p class="text-lg">Explore our delicious menu items.</p>
+        </section>
+        <section class="my-8">
+            <h2 class="text-4xl font-bold mb-6 mt-6 text-center">Appetizers</h2>
+
+            <div class="flex gap-4 my-6">
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure class="h-80"><img src="./image/side-view-shawarma-with-fried-potatoes-board-cookware.jpg"
+                            alt="Food Image" /></figure>
+                    <div class="card-body">
+                        <h3 class="text-xl font-semibold">Chicken Shwarma - $5.99</h3>
+                        <p>Crispy rolls stuffed with Chicken .</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure class="h-80"><img src="./image/chicken_wings.jpeg" alt="Food Image" /></figure>
+                    <div class="card-body">
+                        <h3 class="text-xl font-semibold">Chicken Wings - $8.99</h3>
+                        <p>Spicy and tangy chicken wings served with a side of ranch.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure class="h-80 overflow-hidden">
+                        <img class="w-full h-full object-cover" src="./image/cashewnut_salad.jpeg" alt="Cashewnut Salad"/>
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Cashewnut Salad - $7.99</h2>
+                        <p>Fried chicken served with vegetables and nut.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- <li class="mb-4">
+                    <h3 class="text-xl font-semibold">Spring Rolls - $5.99</h3>
+                    <p>Crispy rolls stuffed with fresh vegetables.</p>
+                </li> -->
+            <!-- Add more appetizers here -->
+
+        </section>
+        <section class="my-8">
+            <h2 class="text-4xl font-bold mb-6 text-center">Main Courses</h2>
+            <div class="flex gap-4 my-6">
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure class="h-80"><img src="./image/roasted_chicken.webp"
+                            alt="Food Image" /></figure>
+                    <div class="card-body">
+                        <h3 class="text-xl font-semibold">Pan-Roasted Chicken Thighs - $5.99</h3>
+                        <p>Blood oranges are charred in the same pan as tender, crispy chicken thighs.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure class="h-80"><img src="./image/salmon.jpeg" alt="Food Image" /></figure>
+                    <div class="card-body">
+                        <h3 class="text-xl font-semibold">Pan-Seared Salmon with Kale and Apple Salad - $8.99</h3>
+                        <p>The star of this dish is the kale salad. It's crunchy, tangy and sweet!</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure class="h-80 overflow-hidden">
+                        <img class="w-full h-full object-cover" src="./image/creamy-garlic-butter-chicken4.jpg" alt="Cashewnut Salad"/>
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Garlic Butter Chicken - $7.99</h2>
+                        <p>Tender, juicy chicken bathed in a rich garlic butter sauce.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my-8">
+            <h2 class="text-4xl font-bold mb-6 mt-6 text-center">Desserts</h2>
+            <div class="flex gap-4 my-6">
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure class="h-80"><img src="./image/cherry_delight.jpeg"
+                            alt="Food Image" /></figure>
+                    <div class="card-body">
+                        <h3 class="text-xl font-semibold">Cherry Delight - $5.99</h3>
+                        <p>This smooth and creamy cheesecake-like treat is light, sweet and pretty, too.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure class="h-80"><img src="./image/Banana_Parfait.jpeg" alt="Food Image" /></figure>
+                    <div class="card-body">
+                        <h3 class="text-xl font-semibold">Banana parfait - $8.99</h3>
+                        <p>Indulge in these decadent chocolate desserts topped with elegant gold decorations.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure class="h-80 overflow-hidden">
+                        <img class="w-full h-full object-cover" src="./image/choclate_pudding.webp" alt="Cashewnut Salad"/>
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Choclate Pudding - $7.99</h2>
+                        <p>It has a rich flavour of dark choclate.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section class="my-8">
+            <h2 class="text-4xl font-bold mb-4 mt-6 text-center">Beverages</h2>
+            <div class="flex gap-4 my-6">
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure class="h-80"><img src="./image/choclate_milkshake.webp"
+                            alt="Food Image" /></figure>
+                    <div class="card-body">
+                        <h3 class="text-xl font-semibold">Choclate Milkshake - $5.99</h3>
+                        <p>This Chocolate Milkshake is super thick and packed with rich chocolatey flavor .</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure class="h-80"><img src="./image/Mocha-Cappuccino-004.webp" alt="Food Image" /></figure>
+                    <div class="card-body">
+                        <h3 class="text-xl font-semibold">Mocha Cappuccino - $8.99</h3>
+                        <p>a combination of rich chocolaty espresso with chocolate.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-compact w-96 bg-base-100 shadow-xl">
+                    <figure class="h-80 overflow-hidden">
+                        <img class="w-full h-full object-cover" src="./image/mango_lassi.jpeg" alt="Cashewnut Salad"/>
+                    </figure>
+                    <div class="card-body">
+                        <h2 class="card-title">Mango Lassi - $7.99</h2>
+                        <p>Mango lassi is a creamy yogurt-based drink from India made with mango, some milk, a little sugar.</p>
+                        <div class="card-actions justify-end">
+                            <button class="btn btn-primary">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-green-600 text-white p-4 text-center">
+        <p>&copy; 2023 My Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
